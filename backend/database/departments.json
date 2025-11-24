@@ -1,0 +1,133 @@
+{
+  "CS": {
+    "departmentId": "CS",
+    "departmentName": "School of Computing",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-18T05:53:56.405Z",
+        "transactions": {
+          "type": "DEPARTMENT_GENESIS",
+          "departmentId": "CS",
+          "departmentName": "School of Computing",
+          "status": "active",
+          "note": "Genesis block for department chain"
+        },
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": 26187,
+        "hash": "0000111c21bd5a25d1e918ae81e6247a4835440bfa49347a06ab0b1b871e5afb"
+      },
+      {
+        "index": 1,
+        "timestamp": "2025-11-18T05:53:57.497Z",
+        "transactions": {
+          "type": "DEPARTMENT_UPDATE",
+          "departmentId": "CS",
+          "departmentName": "School of Computing & AI",
+          "updatedAt": "2025-11-18T05:53:57.497Z"
+        },
+        "prev_hash": "0000111c21bd5a25d1e918ae81e6247a4835440bfa49347a06ab0b1b871e5afb",
+        "nonce": 140548,
+        "hash": "00004ac238203c5d4959f820031e7049f1a117aa82acf7120b49cadbf3115874"
+      }
+    ]
+  },
+  "SE": {
+    "departmentId": "SE",
+    "departmentName": "School of Software Engineering",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-18T05:53:56.547Z",
+        "transactions": {
+          "type": "DEPARTMENT_GENESIS",
+          "departmentId": "SE",
+          "departmentName": "School of Software Engineering",
+          "status": "active",
+          "note": "Genesis block for department chain"
+        },
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": 183183,
+        "hash": "0000ccf5f10beebf63aa4ba5baf35451e9df93c5ec67a03c3d588666c56a55ad"
+      },
+      {
+        "index": 1,
+        "timestamp": "2025-11-18T05:53:58.111Z",
+        "transactions": {
+          "type": "DEPARTMENT_DELETE",
+          "departmentId": "SE",
+          "status": "deleted",
+          "deletedAt": "2025-11-18T05:53:58.111Z"
+        },
+        "prev_hash": "0000ccf5f10beebf63aa4ba5baf35451e9df93c5ec67a03c3d588666c56a55ad",
+        "nonce": 10128,
+        "hash": "00003e01595db2a529800c78ed08b71446cab34631c2267cd4130c7c6b228357"
+      }
+    ]
+  },
+  "FSM": {
+    "departmentId": "FSM",
+    "departmentName": "School of Management",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:16:42.935Z",
+        "transactions": {
+          "type": "DEPARTMENT_GENESIS",
+          "departmentId": "FSM",
+          "departmentName": "School of Management",
+          "status": "active",
+          "note": "Genesis block for department chain"
+        },
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": 2255,
+        "hash": "000053c7c5c949af9c8acae669afd777f31d6c72a3d16c941f6e97b22f6ae4fb"
+      }
+    ]
+  },
+  "EE": {
+    "departmentId": "EE",
+    "departmentName": "Electrical Engineering",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:17:13.688Z",
+        "transactions": {
+          "type": "DEPARTMENT_GENESIS",
+          "departmentId": "EE",
+          "departmentName": "Electrical Engineering",
+          "status": "active",
+          "note": "Genesis block for department chain"
+        },
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": 92454,
+        "hash": "00002c7553ce78b883801e21e483e22843e4bf5fb24c514134b99fd6674ecd46"
+      }
+    ]
+  },
+  "ME": {
+    "departmentId": "ME",
+    "departmentName": "Mechanical Engineering",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:17:37.634Z",
+        "transactions": {
+          "type": "DEPARTMENT_GENESIS",
+          "departmentId": "ME",
+          "departmentName": "Mechanical Engineering",
+          "status": "active",
+          "note": "Genesis block for department chain"
+        },
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": 18766,
+        "hash": "0000e095d1533762068335b8a033b1e87a2a2ec9de9b6f39d9103f9dfa51f926"
+      }
+    ]
+  }
+}

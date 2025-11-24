@@ -1,0 +1,292 @@
+{
+  "STU-001": {
+    "studentId": "STU-001",
+    "studentName": "Ali Raza",
+    "rollNo": "F23-3700",
+    "classId": "CS-7A",
+    "departmentId": "CS",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-18T06:07:11.240Z",
+        "transactions": {
+          "type": "STUDENT_GENESIS",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "active",
+          "note": "Genesis block for student chain"
+        },
+        "prev_hash": "0000d5ed1996fc9f3205df0dfd2b60bf6171c3eb55d5fca9ad125f53f56f643f",
+        "nonce": 92328,
+        "hash": "0000f920c01edfde210a9213c7442279b4d77c9dd0f24e93952a8b78ff8ca2f5"
+      },
+      {
+        "index": 1,
+        "timestamp": "2025-11-18T06:07:11.742Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-18T06:07:11.742Z"
+        },
+        "prev_hash": "0000f920c01edfde210a9213c7442279b4d77c9dd0f24e93952a8b78ff8ca2f5",
+        "nonce": 44890,
+        "hash": "00008826fdbe96f2a3479f5f146e5f739001060ed74d7f7d569377b029198136"
+      },
+      {
+        "index": 2,
+        "timestamp": "2025-11-18T06:07:11.988Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Absent",
+          "timestamp": "2025-11-18T06:07:11.988Z"
+        },
+        "prev_hash": "00008826fdbe96f2a3479f5f146e5f739001060ed74d7f7d569377b029198136",
+        "nonce": 32911,
+        "hash": "0000659e48dbaf54da1952ab509a4ec3320707365ee91b0d10824c02c26a8a30"
+      },
+      {
+        "index": 3,
+        "timestamp": "2025-11-18T06:07:12.164Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-18T06:07:12.164Z"
+        },
+        "prev_hash": "0000659e48dbaf54da1952ab509a4ec3320707365ee91b0d10824c02c26a8a30",
+        "nonce": 14145,
+        "hash": "000035d57ed6fa77c3b5b69f9860595b7aa076a1cba69b7c87c8fdeb26314ec4"
+      },
+      {
+        "index": 4,
+        "timestamp": "2025-11-18T06:09:12.923Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-18T06:09:12.922Z"
+        },
+        "prev_hash": "000035d57ed6fa77c3b5b69f9860595b7aa076a1cba69b7c87c8fdeb26314ec4",
+        "nonce": 35242,
+        "hash": "0000ef4c80ac376004d20217ee6bd30783f40b498d5e3f021652805a760264df"
+      },
+      {
+        "index": 5,
+        "timestamp": "2025-11-18T06:09:13.102Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Absent",
+          "timestamp": "2025-11-18T06:09:13.102Z"
+        },
+        "prev_hash": "0000ef4c80ac376004d20217ee6bd30783f40b498d5e3f021652805a760264df",
+        "nonce": 394312,
+        "hash": "0000f48c321ff1e1f31099409dd4d83e55b1aae6d1d7fd105b118fc5af0a6c7a"
+      },
+      {
+        "index": 6,
+        "timestamp": "2025-11-18T06:09:15.029Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-18T06:09:15.029Z"
+        },
+        "prev_hash": "0000f48c321ff1e1f31099409dd4d83e55b1aae6d1d7fd105b118fc5af0a6c7a",
+        "nonce": 30624,
+        "hash": "0000dd76b39f5fa7788c3defa5d69c0028370cb19271439ec6d93dbc177d698c"
+      },
+      {
+        "index": 7,
+        "timestamp": "2025-11-18T06:13:20.930Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-18T06:13:20.930Z"
+        },
+        "prev_hash": "0000dd76b39f5fa7788c3defa5d69c0028370cb19271439ec6d93dbc177d698c",
+        "nonce": 2544,
+        "hash": "00002236216d16ab2183a7fa9daebb688d713211cdcf129edeee297ca30c2763"
+      },
+      {
+        "index": 8,
+        "timestamp": "2025-11-18T06:13:20.944Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Absent",
+          "timestamp": "2025-11-18T06:13:20.944Z"
+        },
+        "prev_hash": "00002236216d16ab2183a7fa9daebb688d713211cdcf129edeee297ca30c2763",
+        "nonce": 23536,
+        "hash": "00005818a5d6ffb071751913dfd7e9c5502d026bb46de50fd600a9ee5537d39b"
+      },
+      {
+        "index": 9,
+        "timestamp": "2025-11-18T06:13:21.062Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-001",
+          "studentName": "Ali Raza",
+          "rollNo": "F23-3700",
+          "classId": "CS-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-18T06:13:21.062Z"
+        },
+        "prev_hash": "00005818a5d6ffb071751913dfd7e9c5502d026bb46de50fd600a9ee5537d39b",
+        "nonce": 4366,
+        "hash": "0000e26b6e8b1e94160dd242ec64c5496bec45fa5ac47c22bf03fe2129c7e20e"
+      },
+      {
+        "index": 10,
+        "timestamp": "2025-11-24T09:20:40.947Z",
+        "transactions": {
+          "type": "STUDENT_UPDATE",
+          "studentId": "STU-001",
+          "studentName": "Ibrahim",
+          "rollNo": "F23-0590",
+          "classId": "CS-7A",
+          "updatedAt": "2025-11-24T09:20:40.947Z"
+        },
+        "prev_hash": "0000e26b6e8b1e94160dd242ec64c5496bec45fa5ac47c22bf03fe2129c7e20e",
+        "nonce": 387508,
+        "hash": "00009abd4c0e116f60b239aa3c1243fc579e3c4c57d4133f6bfe5c2ad6c46039"
+      }
+    ]
+  },
+  "STU-002": {
+    "studentId": "STU-002",
+    "studentName": "Zaid Kashif",
+    "rollNo": "F22-3736",
+    "classId": "SE-7A",
+    "departmentId": "CS",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:21:25.088Z",
+        "transactions": {
+          "type": "STUDENT_GENESIS",
+          "studentId": "STU-002",
+          "studentName": "Zaid Kashif",
+          "rollNo": "F22-3736",
+          "classId": "SE-7A",
+          "departmentId": "CS",
+          "status": "active",
+          "note": "Genesis block for student chain"
+        },
+        "prev_hash": "0000e1d62b2c0c9305ddb8f286aa0e62910194984c62ce7f140fc67feafafd17",
+        "nonce": 44320,
+        "hash": "00002660f002d20ae404d23871e1f38d3eea20c74cff314cb306ccec16aae18e"
+      },
+      {
+        "index": 1,
+        "timestamp": "2025-11-24T09:21:55.324Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-002",
+          "studentName": "Zaid Kashif",
+          "rollNo": "F22-3736",
+          "classId": "SE-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-24T09:21:55.324Z"
+        },
+        "prev_hash": "00002660f002d20ae404d23871e1f38d3eea20c74cff314cb306ccec16aae18e",
+        "nonce": 70146,
+        "hash": "0000a377c4661a77b09e3b7736a8b35eaf2e77f0453d62f94dcb67860ae636a2"
+      },
+      {
+        "index": 2,
+        "timestamp": "2025-11-24T09:21:57.314Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-002",
+          "studentName": "Zaid Kashif",
+          "rollNo": "F22-3736",
+          "classId": "SE-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-24T09:21:57.314Z"
+        },
+        "prev_hash": "0000a377c4661a77b09e3b7736a8b35eaf2e77f0453d62f94dcb67860ae636a2",
+        "nonce": 33927,
+        "hash": "00002272ff11c53bc325f9065efeda0270333278796f25e5c2333cc90ff5ae0b"
+      },
+      {
+        "index": 3,
+        "timestamp": "2025-11-24T09:21:58.461Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-002",
+          "studentName": "Zaid Kashif",
+          "rollNo": "F22-3736",
+          "classId": "SE-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-24T09:21:58.461Z"
+        },
+        "prev_hash": "00002272ff11c53bc325f9065efeda0270333278796f25e5c2333cc90ff5ae0b",
+        "nonce": 10177,
+        "hash": "0000bff6e3fea09ffd16b1c6ba5061f78ef01aef23a1d0aac7c3a41715754cd0"
+      },
+      {
+        "index": 4,
+        "timestamp": "2025-11-24T09:21:59.343Z",
+        "transactions": {
+          "type": "ATTENDANCE",
+          "studentId": "STU-002",
+          "studentName": "Zaid Kashif",
+          "rollNo": "F22-3736",
+          "classId": "SE-7A",
+          "departmentId": "CS",
+          "status": "Present",
+          "timestamp": "2025-11-24T09:21:59.343Z"
+        },
+        "prev_hash": "0000bff6e3fea09ffd16b1c6ba5061f78ef01aef23a1d0aac7c3a41715754cd0",
+        "nonce": 19407,
+        "hash": "0000c7da0f8a266aec01bc9d85d7b3d22ddbb3c170965e443f76c84eb1af570d"
+      }
+    ]
+  }
+}

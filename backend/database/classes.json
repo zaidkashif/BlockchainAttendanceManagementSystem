@@ -1,0 +1,117 @@
+{
+  "CS-7A": {
+    "classId": "CS-7A",
+    "className": "BSCS-7A",
+    "departmentId": "CS",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-18T06:07:10.979Z",
+        "transactions": {
+          "type": "CLASS_GENESIS",
+          "classId": "CS-7A",
+          "className": "BSCS-7A",
+          "departmentId": "CS",
+          "status": "active",
+          "note": "Genesis block for class chain"
+        },
+        "prev_hash": "00004ac238203c5d4959f820031e7049f1a117aa82acf7120b49cadbf3115874",
+        "nonce": 46093,
+        "hash": "0000d5ed1996fc9f3205df0dfd2b60bf6171c3eb55d5fca9ad125f53f56f643f"
+      }
+    ]
+  },
+  "SE-7A": {
+    "classId": "SE-7A",
+    "className": "BSSE-7A",
+    "departmentId": "CS",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:18:22.446Z",
+        "transactions": {
+          "type": "CLASS_GENESIS",
+          "classId": "SE-7A",
+          "className": "BSSE-7A",
+          "departmentId": "CS",
+          "status": "active",
+          "note": "Genesis block for class chain"
+        },
+        "prev_hash": "00004ac238203c5d4959f820031e7049f1a117aa82acf7120b49cadbf3115874",
+        "nonce": 606,
+        "hash": "0000e1d62b2c0c9305ddb8f286aa0e62910194984c62ce7f140fc67feafafd17"
+      }
+    ]
+  },
+  "BBA-5A": {
+    "classId": "BBA-5A",
+    "className": "BSBBA-5A",
+    "departmentId": "FSM",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:18:47.658Z",
+        "transactions": {
+          "type": "CLASS_GENESIS",
+          "classId": "BBA-5A",
+          "className": "BSBBA-5A",
+          "departmentId": "FSM",
+          "status": "active",
+          "note": "Genesis block for class chain"
+        },
+        "prev_hash": "000053c7c5c949af9c8acae669afd777f31d6c72a3d16c941f6e97b22f6ae4fb",
+        "nonce": 42877,
+        "hash": "00003d862e275983f7036c5d22325d377458da2117b3a617848e43cb22fc3919"
+      }
+    ]
+  },
+  "EE-3A": {
+    "classId": "EE-3A",
+    "className": "BSEE-3A",
+    "departmentId": "EE",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:19:56.202Z",
+        "transactions": {
+          "type": "CLASS_GENESIS",
+          "classId": "EE-3A",
+          "className": "BSEE-3A",
+          "departmentId": "EE",
+          "status": "active",
+          "note": "Genesis block for class chain"
+        },
+        "prev_hash": "00002c7553ce78b883801e21e483e22843e4bf5fb24c514134b99fd6674ecd46",
+        "nonce": 93995,
+        "hash": "0000fdd394153cf7f66cb9480f4bcc5e90588a0f9330642167bffd7820879654"
+      }
+    ]
+  },
+  "ME-1A": {
+    "classId": "ME-1A",
+    "className": "MSME-1A",
+    "departmentId": "ME",
+    "difficulty": 4,
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2025-11-24T09:20:10.165Z",
+        "transactions": {
+          "type": "CLASS_GENESIS",
+          "classId": "ME-1A",
+          "className": "MSME-1A",
+          "departmentId": "ME",
+          "status": "active",
+          "note": "Genesis block for class chain"
+        },
+        "prev_hash": "0000e095d1533762068335b8a033b1e87a2a2ec9de9b6f39d9103f9dfa51f926",
+        "nonce": 6961,
+        "hash": "00003de555c9bb8c6df8b171c926a07b2f2443dbc4ae64ccc6a3f72bca31d89d"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Data storage (blockchain persistence)
+data/*.json
+
+# (Optional) If you want to commit initial empty DB, remove the above line.
+
+# Cache
+.cache/
+.temp/
+
+# IDE
+.vscode/
+.idea/
